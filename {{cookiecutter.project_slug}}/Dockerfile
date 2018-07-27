@@ -5,7 +5,7 @@ WORKDIR /usr/src/app
 
 COPY ./Pipfile .
 
-RUN pip3 install pipenv
+RUN pip install pipenv
 
 COPY ./app .
 RUN pipenv install
