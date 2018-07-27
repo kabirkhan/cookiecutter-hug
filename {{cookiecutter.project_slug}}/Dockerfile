@@ -1,4 +1,4 @@
-FROM alpine:3.6
+FROM python:3.6
 ENV PORT 8080
 EXPOSE ${PORT}
 WORKDIR /usr/src/app
